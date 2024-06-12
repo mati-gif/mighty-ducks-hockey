@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    color: #000;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #aaa;
+}
+
+
+
+.header{
+    box-sizing: border-box;
+    height: 50vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-image: url(../images/design1_image1.jpg);
+    background-size: cover;
+    max-width: 100%;
+
+
+
+
+}
+
+.header_item-container{
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    text-align: end;
+    max-width: 100%;
+
+
+
+}
+
+
+.header_overlay{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #aaa2;
+    position: absolute;
+    z-index: 1;
+}
+h1{
+
+    font-size: 30px;
+    text-align: center;
+    margin: 12px;
+
+    
+    
+}
+
+.nav-bar{
+    position: absolute;
+    right: 0;
+
+
+}
+.nav_item{
+    border: 2px solid #000;
+    text-decoration: none;
+    padding: 2px;
+    margin-right: 3px;
+    background-color: #48e;
+    color: #ededed;
+    box-shadow: 0px 0px 5px #000;
+
+
+}
+.header h2 {
+    background: #000;
+    text-align: center;
+    color: #fff;
+
+}
+.nav_item:first-child{
+    background-color: #385;
+}
+
+
+
+.nav_item:hover{
+    border: 1px solid #000;
+}
+
+
+/*#main_item{
+    border: 2px solid #000;
+    padding: 2px;
+    background-color: #877;
+}*/
+/*img{
+    width: 200px;
+
+}*/
+
+.aside{
+    display: inline-block;
+    margin-top: 50px;
+
+
+
+}
+.aside_img{
+    width: 150px;
+
+}
+
+
+
+
+
+.main_container{
+    position: absolute;
+    left: 200px;
+    top: 425px;
+    display: inline-block;
+    margin: auto;
+    width: 70%;
+
+
+
+}
+
+h3{
+    padding: 5px;
+}
+
+
