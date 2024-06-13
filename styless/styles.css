@@ -81,7 +81,27 @@ h1{
 }
 .nav_item:first-child{
     background-color: #385;
+    
 }
+
+#nav-item{
+    background-color: #48e;
+
+}
+.nav-link{
+    background-color: #385;
+    border: 2px solid #000;
+    text-decoration: none;
+    padding: 2px;
+    margin-right: 3px;
+    color: #ededed;
+    box-shadow: 0px 0px 5px #000;
+
+
+}
+
+
+
 
 
 
@@ -90,15 +110,7 @@ h1{
 }
 
 
-/*#main_item{
-    border: 2px solid #000;
-    padding: 2px;
-    background-color: #877;
-}*/
-/*img{
-    width: 200px;
 
-}*/
 
 .aside{
     display: inline-block;
@@ -127,6 +139,7 @@ h1{
 
 
 }
+
 
 h3{
     padding: 5px;
