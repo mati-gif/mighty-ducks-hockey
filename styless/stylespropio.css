@@ -59,6 +59,7 @@ h1{
     top: 0;
     border:  none;
     background-color: #fff;
+    padding: 8px;
 
 }
 
@@ -83,7 +84,7 @@ h1{
 
 }
 
-.nav_item:hover{
+.nav_item:hover,.nav-link:hover{
     background-color: #AE49AE99;
     border-radius: 20px;
     outline: 2px solid #AE49AE99;
@@ -107,13 +108,7 @@ h1{
     outline-offset: 0;
     
 }
-.nav-link:hover{
-    background-color: #AE49AE99;
-    border-radius: 20px;
-    outline: 2px solid #AE49AE99;
-    outline-offset: -8px;
 
-}
 
 
 .header h2 {
@@ -137,13 +132,13 @@ h1{
 
 .aside{
     position: absolute;
-top: 50px;
+top: 56px;
 right: 170px;
 z-index: 10;
 max-width: 80px;
 
 }
-.aside_img{
+.aside_logo{
     width: 50px;
 }
 
@@ -154,6 +149,8 @@ max-width: 80px;
     margin: auto;
     width: 70%;
     margin: auto;
+    border: 3px solid #000;
+    padding: 20px;
 
 
 
