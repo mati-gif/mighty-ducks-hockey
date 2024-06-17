@@ -11,7 +11,7 @@ body{
     background-color: #babe;
 
 }
-
+/*-----HEADER SECTION------*/
 
 .header{
     box-sizing: border-box;
@@ -20,7 +20,7 @@ body{
     background-image: url(../images/design1_image1.jpg) ;
     background-size: cover;
     margin: auto;
-    width: clamp(500px,100%,1000px);
+    width: clamp(300px,100%,1000px);
     border-radius:10px;
 
 
@@ -45,6 +45,8 @@ body{
     z-index: 1;
 }
 
+
+
 h1{
 
     font-size: 30px;
@@ -54,12 +56,28 @@ h1{
     
     
 }
-.nav-bar{
+
+/*--------NAV SECTION(dentro del header)--------*/
+.nav{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
     position: sticky;
     top: 0;
-    border:  none;
-    background-color: #fff;
     padding: 8px;
+
+}
+.nav__ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: clamp(300px,100%,1000px);
+    
+
+
+}
+.item{
+    list-style: none;
 
 }
 
@@ -84,14 +102,6 @@ h1{
 
 }
 
-.nav_item:hover,.nav-link:hover{
-    background-color: #AE49AE99;
-    border-radius: 20px;
-    outline: 2px solid #AE49AE99;
-    outline-offset: -8px;
-
-    
-}
 .nav-link{
     padding: 2px;
     margin-right: 3px;
@@ -108,6 +118,19 @@ h1{
     outline-offset: 0;
     
 }
+
+.nav_item:hover,.nav-link:hover{
+    background-color: #AE49AE99;
+    border-radius: 20px;
+    outline: 2px solid #AE49AE99;
+    outline-offset: -8px;
+
+    
+}
+
+/*--------NAV SECTION(dentro del header) ENDS--------*/
+
+
 
 
 
@@ -129,28 +152,43 @@ h1{
 
 }
 
+/*-----HEADER SECTION ENDS------*/
+
+
+
+
+
+/*-----ASIDE SECTION------*/
+
 
 .aside{
-    position: absolute;
+position: absolute;
 top: 56px;
 right: 170px;
 z-index: 10;
-max-width: 80px;
+
 
 }
 .aside_logo{
-    width: 50px;
+    width: 55px;
 }
 
+/*-----ASIDE SECTION ENDS------*/
+
+
+
+
+/*-----MAIN SECTION------*/
+
 .main_container{
-    position: absolute;
-    left: 190px;
-    top: 425px;
-    margin: auto;
-    width: 70%;
-    margin: auto;
+
     border: 3px solid #000;
     padding: 20px;
+    width: clamp(300px,100%,1000px);
+    margin: auto;
+    position: relative;
+    top: 40px;
+
 
 
 
@@ -158,6 +196,8 @@ max-width: 80px;
 h3{
     padding: 5px;
 }
+
+
 
 @keyframes llenar-barra{
     from{
@@ -169,3 +209,8 @@ h3{
 
     }
 }
+
+/*-----MAIN SECTION ENDS------*/
+
+
+
