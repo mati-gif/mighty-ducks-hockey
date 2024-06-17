@@ -27,10 +27,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;*/
-    text-align: center;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    text-align: center;
+
 
 }
 .header_item-container{
@@ -51,6 +52,7 @@ body{
 .header h1{
     margin-top: 10px;
     color: #ddd;
+    
 
 }
 .header p{
