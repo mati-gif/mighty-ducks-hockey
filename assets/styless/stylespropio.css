@@ -60,19 +60,20 @@ h1{
 /*--------NAV SECTION(dentro del header)--------*/
 .nav{
     background-color: #fff;
-    display: flex;
-    justify-content: center;
+    /*display: flex;
+    justify-content: center;*/
     position: sticky;
     top: 0;
     padding: 8px;
 
+
 }
 .nav__ul{
+
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: clamp(300px,100%,1000px);
-    
 
 
 }

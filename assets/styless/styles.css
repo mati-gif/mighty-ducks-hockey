@@ -59,6 +59,10 @@ h1{
 
 }*/
 
+/*.nav{
+    display: flex;
+    justify-content: end;
+}*/
 .nav__ul{
     display: flex;
     justify-content: end;
