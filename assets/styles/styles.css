@@ -16,10 +16,12 @@ body{
 .header{
     box-sizing: border-box;
     height: 50vh;
+    width: 100%;
     box-sizing: border-box;
     background-image: url(../images/design1_image1.jpg);
     background-size: 1200px;
     min-width: 100%; 
+
 
 }
 
@@ -67,8 +69,6 @@ h1{
     display: flex;
     justify-content: end;
     
-
-
 }
 
 .item{
@@ -85,6 +85,10 @@ h1{
     background-color: #48e;
     color: #ededed;
     box-shadow: 0px 0px 8px #000;
+    border-radius: 8px;
+    text-align: center;
+
+
 
 
 
@@ -111,6 +115,10 @@ h1{
     margin-right: 3px;
     color: #ededed;
     box-shadow: 0px 0px 5px #000;
+    border-radius: 8px;
+    text-align: center;
+
+
 
 
 }
@@ -179,3 +187,14 @@ h3{
 /*-----MAIN SECTION ENDS------*/
 
 
+/*------FOOTER SECTION-----*/
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*------FOOTER SECTION ENDS-----*/

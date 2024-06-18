@@ -69,18 +69,21 @@ body{
     flex-direction: row;
     justify-content: end;
     gap: 3px;
-    max-width: 100%;
+    width: 100%;
+    min-height: 20px;
+
 }
 
 .nav_item{
     border: 2px solid #000;
     text-decoration: none;
     padding: 2px;
-    width: 100px;
     background-color: #48e;
     color: #ededed;
     box-shadow: 0px 0px 8px #000;
     text-align: center;
+    border-radius: 8px;
+
 
 
 
@@ -92,8 +95,9 @@ body{
     padding: 2px;
     color: #ededed;
     box-shadow: 0px 0px 5px #000;
-    width: 90px;
     text-align: center;
+    border-radius: 8px;
+
 
 
 
@@ -141,4 +145,22 @@ body{
 #ul__article{
     list-style: circle;
 }
+
+/*------MAIN SECTION ENDS-----*/
+
+/*------FOOTER SECTION-----*/
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*------FOOTER SECTION ENDS-----*/
+
+
+
+
 
