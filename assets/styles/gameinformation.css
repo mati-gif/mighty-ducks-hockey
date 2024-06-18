@@ -131,13 +131,13 @@ h1{
     gap: 20px;
 }
 
-td {
+/*td {
     border: 1px solid #000;
 }
 
 th{
     border: 1px solid #000;
-}
+}*/
 
 td,th{
     border: 1px solid black;
@@ -162,13 +162,15 @@ td{
     font-weight: bold;
 }
 
-.main div{
+.div__container{
     border: 1px solid #000;
     background-color: #cac;
+
 }
 
-.main p{
+span{
     margin-left: 20px;
+    font-weight: bold;
 
 }
 
