@@ -95,14 +95,13 @@ h3{
 
 
 .nav_item{
-    padding: 2px;
-    margin-right: 3px;
+
     color: #ededed;
     box-shadow: 0px 0px 5px #000;
     color: #AE49AE;
     text-decoration: none;
     display: inline-block;
-    padding: 8px 10px;
+    padding: 4px 6px;
     border-radius: 20px;
     transition: 0.3s,border-radius 0.3s,outline 0.3s,outline-offset 0.3s;
     margin: 2px;
@@ -116,14 +115,13 @@ h3{
 }
 
 .nav-link{
-    padding: 2px;
-    margin-right: 3px;
+
     color: #ededed;
     box-shadow: 0px 0px 5px #000;
     color: #AE49AE;
     text-decoration: none;
     display: inline-block;
-    padding: 8px 10px;
+    padding: 4px 6px;
     border-radius: 20px;
     transition: 0.3s,border-radius 0.3s,outline 0.3s,outline-offset 0.3s;
     margin: 2px;
@@ -257,7 +255,9 @@ dd,.article p{
 }*/
 
 
-
+.maps{
+    text-align: center;
+}
 
 
 @keyframes llenar-barra{
@@ -290,3 +290,43 @@ footer{
 }
 
 /*------FOOTER SECTION ENDS-----*/
+
+
+
+@media screen and (max-width:430px){
+    .nav{
+        justify-content: center;
+        animation: nav-movement both;
+        animation-timeline: scroll();
+        position: sticky;
+        animation-range: 20% 50%;
+    }
+
+    
+  
+
+
+
+
+}
+
+
+@media screen and (min-width:768px){
+
+    .nav{
+        animation: nav-movement both;
+        animation-timeline: scroll();
+        position: sticky;
+        animation-range: 20% 50%;
+    }
+
+}
+@keyframes nav-movement{
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}

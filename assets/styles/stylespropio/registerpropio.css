@@ -18,7 +18,7 @@ body{
     height: 150px;
     box-sizing: border-box;
     margin: auto;
-    background-color: #bab;
+    background-color: #fff;
     width: clamp(500px,100%,1000px);
 
 
@@ -37,28 +37,33 @@ body{
 }
 
 .nav_item{
-    border: 2px solid #000;
-    text-decoration: none;
-    background-color: #48e;
     color: #ededed;
-    box-shadow: 0px 0px 8px #000;
-    border-radius: 8px;
-    text-align: center;
-    padding: 5px;
-
+    box-shadow: 0px 0px 5px #000;
+    color: #AE49AE;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 6px;
+    border-radius: 20px;
+    transition: 0.3s,border-radius 0.3s,outline 0.3s,outline-offset 0.3s;
+    margin: 2px;
+    outline:0 ;
+    outline-offset: 0;
 
 }
 
 
 .nav-link{
-    background-color: #385;
-    border: 2px solid #000;
-    text-decoration: none;
+    padding: 4px 6px;
     color: #ededed;
     box-shadow: 0px 0px 5px #000;
-    border-radius: 8px;
-    text-align: center;
-    padding: 5px;
+    color: #AE49AE;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 0.3s,border-radius 0.3s,outline 0.3s,outline-offset 0.3s;
+    margin: 2px;
+    outline:0 ;
+    outline-offset: 0;
 
 
 
@@ -66,7 +71,10 @@ body{
 
 
 .nav_item:hover , .nav-link:hover{
-    border: 1px solid #000;
+    background-color: #AE49AE99;
+    border-radius: 20px;
+    outline: 2px solid #AE49AE99;
+    outline-offset: -8px;
 
 }
 
@@ -78,7 +86,7 @@ body{
 .main{
     background-color: #fff;
     margin: auto;
-    background-color: #abca;
+    background-color: #bbbc;
     width: clamp(500px,100%,1000px);
 
 
@@ -92,7 +100,7 @@ body{
 }
 
 section{
-    background-color: #abca;
+    background-color: #caa;
     min-height: 80vh;
     display: flex;
     flex-direction: column;
@@ -108,6 +116,7 @@ form{
     width: 100%;
     box-shadow: 0px 0px 40px #222;
     margin-top: 20px;
+    background-color: #aca;
 
 
 
@@ -242,7 +251,7 @@ button{
 /*-------MEDIA QUERIES-------*/
 @media screen and  (max-width:468px){
     .header{
-        background-color: #bba;
+        background-color: #fff;
         flex-direction: column;
         justify-content: start;
         align-items: end;

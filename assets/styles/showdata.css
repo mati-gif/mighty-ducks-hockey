@@ -81,3 +81,32 @@ body{
 table{
     background-color: #cac;
 }
+
+/*-------MEDIA QUERIES-------*/
+
+@media screen and (max-width:430px){
+    .nav{
+        background-color: #fff;
+        padding: 30px;
+    }
+    .nav-link,.nav_item,h2{
+        padding: 20px;
+        font-size: 35px;
+
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .nav{
+        padding: 30px;
+    }
+    .nav-link,.nav_item{
+        padding: 50px;
+        font-size: 35px;
+
+    }
+    table{
+        padding: 50px;
+    }
+}

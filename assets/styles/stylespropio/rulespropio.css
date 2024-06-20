@@ -217,3 +217,58 @@ footer{
 }
 
 /*------FOOTER SECTION ENDS-----*/
+
+
+/*------MEDIA QUERIES -----*/
+
+@media screen and (max-width:430px){
+    .nav{
+        justify-content: center;
+        animation: nav-movement both;
+        animation-timeline: scroll();
+        position: sticky;
+        animation-range: 10% 40%;
+    }
+
+    
+    .article{
+
+        padding: 22px;
+
+    }
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width:768px){
+
+    .nav{
+        animation: nav-movement both;
+        animation-timeline: scroll();
+        position: sticky;
+        animation-range: 10% 40%;
+    }
+    .article{
+
+        padding: 22px;
+
+    }
+    h3{
+        font-size: 17px;
+    }
+}
+
+@keyframes nav-movement{
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}

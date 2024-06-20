@@ -83,8 +83,9 @@ h1{
 .nav{
     display: flex;
     justify-content: end;
-    border: 1px solid #000;
     min-height: 20px;
+    gap: 4px;
+
 
 
 
@@ -129,12 +130,12 @@ h1{
     height: 100%;
     max-width: 1000px;
     max-height: 100%;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: auto;
     gap: 20px;
+    padding-top: 10px;
 }
 
 /*td {
@@ -158,6 +159,7 @@ table{
     width: 100%;
     box-shadow: 0px 0px 25px #0006;
     max-width: 100vw;
+    
 }
 
 th{
@@ -211,3 +213,65 @@ footer{
 
 /*------FOOTER SECTION ENDS-----*/
 
+
+/*-------MEDIA QUERIES-------*/
+
+@media screen and (max-width:430px){
+
+    .nav{
+        flex-direction: column;
+        justify-content: center;
+        gap: 8px;
+        animation: desaparecer both;
+        animation-timeline: scroll();
+        animation-range: cover 0  contain 10%;
+    }
+
+    .nav_item:hover , .nav-link:hover{
+        border: 1px solid #000;
+    
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table{
+        background-color: #beba;
+
+    }
+
+    h2{
+        font-size:12px
+    }
+    
+    
+
+}
+
+@media screen and (min-width:768px) {
+    .nav{
+        gap: 10px;
+    }
+
+    .nav-link,.nav_item{
+        padding: 5px;
+    }
+
+    h2{
+        font-size:12px
+    }
+}
+
+
+@keyframes desaparecer{
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+
+    }
+}

@@ -63,9 +63,7 @@ h1{
 
 .nav{
     display: flex;
-    flex-direction: row;
     justify-content: end;
-    gap: 3px;
     width: 100%;
     min-height: 20px;
 
@@ -91,11 +89,11 @@ h1{
 .nav_item{
     border: 2px solid #000;
     text-decoration: none;
-    padding: 2px;
     background-color: #48e;
     color: #ededed;
     box-shadow: 0px 0px 8px #000;
     border-radius: 8px;
+    padding: 2px;
     text-align: center;
 
 
@@ -188,3 +186,75 @@ footer{
 }
 
 /*------FOOTER SECTION ENDS-----*/
+
+
+@media screen and (max-width:430px){
+
+    .nav{
+        flex-direction: column;
+        justify-content: center;
+        gap: 8px;
+        animation: nav-movement both;
+        animation-timeline: scroll();
+        animation-range: cover 20%  cover 40%;
+    }
+
+    .aside_logo{
+
+        position: absolute;
+        top: 38px;
+        right: 0;
+        width: 50px;
+
+
+    }
+
+}
+
+@media screen and (min-width:768px){
+    .nav{
+        gap: 10px;
+
+    }
+
+
+    .aside{
+        object-fit: cover;
+        height: 0;
+        position: absolute;
+        right: 100px;
+
+
+    }
+
+    .aside_logo{
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .main{
+        width: 60vw;
+        padding: 30px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+}
+
+
+@keyframes nav-movement{
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+
+    }
+}
