@@ -22,6 +22,7 @@ body{
     width: clamp(500px,100%,1000px);
 
 
+
 }
 
 .nav{
@@ -29,16 +30,16 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    gap: 15px;
     width: clamp(500px,100%,1000px);
+    border: 1px solid #000;
+    height: 150px;
+    gap: 8px;
 
 }
 
 .nav_item{
     border: 2px solid #000;
     text-decoration: none;
-    padding: 2px;
-    width: 100px;
     margin-right: 5px;
     background-color: #48e;
     color: #ededed;
@@ -54,13 +55,11 @@ body{
     background-color: #385;
     border: 2px solid #000;
     text-decoration: none;
-    padding: 2px;
     margin-right: 3px;
     color: #ededed;
     box-shadow: 0px 0px 5px #000;
     border-radius: 8px;
     text-align: center;
-    width: 100px;
 
 
 }
