@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #ddd;
+}
+
+
+/*-----HEADER SECTION------*/
+
+.header{
+    box-sizing: border-box;
+    height: 150px;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: #bab;
+    width: clamp(500px,100%,1000px);
+
+
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 15px;
+    width: clamp(500px,100%,1000px);
+
+}
+
+.nav_item{
+    border: 2px solid #000;
+    text-decoration: none;
+    padding: 2px;
+    width: 100px;
+    margin-right: 5px;
+    background-color: #48e;
+    color: #ededed;
+    box-shadow: 0px 0px 8px #000;
+    border-radius: 8px;
+    text-align: center;
+
+
+}
+
+
+.nav-link{
+    background-color: #385;
+    border: 2px solid #000;
+    text-decoration: none;
+    padding: 2px;
+    margin-right: 3px;
+    color: #ededed;
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 8px;
+    text-align: center;
+    width: 100px;
+
+
+}
+
+
+.nav_item:hover , .nav-link:hover{
+    border: 1px solid #000;
+
+}
+
+/*-----HEADER SECTION ENDS------*/
+
+
+/*-----MAIN SECTION------*/
+
+.main{
+    background-color: #fff;
+    margin: auto;
+    background-color: #abca;
+    width: clamp(500px,100%,1000px);
+
+
+
+}
+.main_subtittle {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    
+}
+
+section{
+    background-color: #abca;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: clamp(500px,100%,1000px);
+
+}
+
+form{
+    padding: 20px 0;
+    max-width: 550px;
+    width: 100%;
+    box-shadow: 0px 0px 40px #222;
+    margin-top: 20px;
+
+
+
+
+}
+fieldset{
+    padding: 0px 20px 20px 20px;
+    border-radius: 5px;
+    margin: 20px;
+    border: 2px solid #000;
+
+}
+legend{
+    padding: 0px 6px;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.fieldset{
+    min-width: 90%;
+}
+.fieldset  input{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5px;
+}
+.especial-input{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.date-div{
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+.date-div input{
+    width: 50%;
+}
+.gender_div{
+    display: flex;
+    gap: 18px;
+    margin: 20px 0;
+    width: 100%;
+    padding: 8px;
+}
+
+.grade-div{
+    display: flex;
+    align-items: center;
+}
+
+.fieldset2{
+    padding: 10px;
+}
+.fieldset2 h4{
+    margin: 10px;
+} 
+
+
+.fieldset3{
+
+
+    padding: 20px;
+}
+
+.fieldset3 h4{
+    padding: 10px;
+}
+.fieldset3 label{
+    margin: 5px;
+}
+
+.last-div{
+    padding: 10px;
+    
+
+}
+.last-div h2{
+    margin: 8px 7px;
+}
+.last-div input{
+    width: 100%;
+
+}
+.last-div label{
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+
+input{
+    padding: 2px;
+    border-radius: 10px;
+
+}
+
+select{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px #001;
+    
+
+
+}
+
+option{
+    background-color: #aaa;
+}
+
+button{
+    width: 100%;
+    padding: 8px;
+    background-color: #aaa;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 12px;
+
+}
+

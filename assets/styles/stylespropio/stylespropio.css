@@ -9,7 +9,14 @@
 body{
     font-family: sans-serif;
     background-color: #babe;
-    border: 1px solid #000;
+    
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;*/
+    
+    
+
 
 }
 /*-----HEADER SECTION------*/
@@ -188,9 +195,16 @@ z-index: 10;
     padding: 20px;
     width: clamp(300px,100%,1000px);
     margin: auto;
-    position: relative;
-    top: 40px;
     min-height: 500px;
+    /*position: relative;
+    top: 40px;*/
+    /*border: 1px solid #000;*/
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;*/
+    margin-top: 50px;
+    /*min-height: 600px;*/
 
 
 
@@ -225,6 +239,10 @@ footer{
     padding: 25px;
     font-weight: bold;
     text-align: center;
+    width: clamp(300px,100%,1000px);
+    /* margin-top: 0;*/
+    margin: auto;
+
 
 
 }

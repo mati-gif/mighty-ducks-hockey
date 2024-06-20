@@ -9,7 +9,6 @@
 body{
     font-family: sans-serif;
     background-color: #babe;
-    border: 1px solid #000;
 
 }
 /*-----HEADER SECTION------*/
@@ -284,6 +283,8 @@ footer{
     padding: 25px;
     font-weight: bold;
     text-align: center;
+    margin: auto;
+    width: 100vw;
 
 
 }

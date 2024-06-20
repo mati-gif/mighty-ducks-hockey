@@ -10,7 +10,7 @@ body{
     background-color: #ddd;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     min-height: 100vh;
 
 }
@@ -122,10 +122,6 @@ h1{
     box-shadow: 0px 0px 5px #000;
     border-radius: 8px;
     text-align: center;
-
-
-
-
 }
 
 
@@ -146,62 +142,33 @@ h1{
 /*-----HEADER SECTION ENDS------*/
 
 
+/*-----ASIDE AND MAIN SECTION------*/
 
-/*-----ASIDE SECTION------*/
 
-
+.main__wrapper{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    min-height: 50vh;
+    width: 100%;
+}
+.main__wrapper aside{
+    flex-grow: 1;
+}
 
 .aside{
-    display: flex;
-    /*height: 100vh;*/
-    border: 1px solid #000;
-    margin: 20px;
-    display: inline-block;
-    margin-top: 50px;
-
-
+    max-width: 150px;
 }
+
 .aside_logo{
-    width: 160px;
-    align-self: center;
+    width: 80px;
 
 }
 
-/*-----ASIDE SECTION ENDS------*/
-
-
-
-/*-----MAIN SECTION------*/
-
-.main_container{
-    /*position: absolute;
-    left: 200px;
-    top: 425px;*/
-    /*display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /*min-width: 50%;
-    min-height: 80vh;*/
-    max-width: 70%;
-    padding: 10px;
-    border: 1px solid #000;
-    margin: auto;
-    margin-top: auto;
-
-
-
-
-
-
-
+.main__wrapper main{
+    margin-left: 25px;
 }
 
-h3{
-    padding: 5px;
-}
-
-/*-----MAIN SECTION ENDS------*/
 
 
 /*------FOOTER SECTION-----*/
@@ -214,7 +181,6 @@ footer{
     text-align: center;
     width: 100%;
     margin-top: auto;
-    border: 5px solid #000;
 }
 
 /*------FOOTER SECTION ENDS-----*/
