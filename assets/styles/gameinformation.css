@@ -256,9 +256,8 @@ footer{
         gap: 10px;
     }
 
-    .nav-link,.nav_item{
-        padding: 5px;
-    }
+    /*.nav-link,.nav_item{
+    }*/
 
     h2{
         font-size:12px
