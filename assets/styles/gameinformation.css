@@ -185,8 +185,9 @@ span{
 
 }
 
-h2{
+.subtittle-maps{
     text-align: center;
+    font-size: 20px;
 }
 
 .maps{
